@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Home Intrusion Detection System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f9ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2d89ef;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 30px;
+    }
+    h2 {
+      color: #2d89ef;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .tools, .helps {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #e0e0e0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Smart Home Intrusion Detection System</h1>
+  <p>Securing your home with smart and real-time alerts</p>
+</header>
+
+
+
+<div class="container">
+
+  <div class="section">
+    <h2>How It Works</h2>
+    <p>
+      The Smart Home Intrusion Detection System uses a PIR motion sensor to detect movement inside or near the house.
+      When any motion is detected, the sensor sends a signal to the Arduino microcontroller. The Arduino then activates
+      a buzzer to alert the surroundings and can also send a notification to the homeowner using a WiFi module like
+      ESP8266. This process helps to quickly respond to any unauthorized entry and ensures better safety. Additional
+      components like cameras or mobile alerts can be added for more advanced protection.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>How It Helps</h2>
+    <div class="helps">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1087/1087923.png" alt="Detection">
+        <p>Detects unauthorized motion using sensors</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1827/1827446.png" alt="Alert">
+        <p>Sends real-time alerts to the owner</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3388/3388643.png" alt="Safety">
+        <p>Improves safety with automated monitoring</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Tools & Components Used</h2>
+    <div class="tools">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="Arduino">
+        <p>Arduino UNO</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/8291/8291865.png" alt="Sensor">
+        <p>PIR Motion Sensor</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Buzzer">
+        <p>Buzzer / Alarm</p>
+      </div>
+      <div class="card">
+        <img src="https://tridenstechnology.com/wp-content/uploads/2019/07/IoT.jpg" alt="IoT">
+        <p>WiFi Module (ESP8266)</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<footer>
+  &copy; 2025 Smart Home Project by Jahnavi Reddy
+</footer>
+
+</body>
+</html>
